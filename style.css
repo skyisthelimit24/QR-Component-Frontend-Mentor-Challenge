@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Metal+Mania&family=Montserrat:ital,wght@0,700;0,800;1,400&family=Outfit:wght@400;700&family=Protest+Guerrilla&family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-LightGray: hsl(212, 45%, 89%);
+    --clr-GrayishBlue: hsl(220, 15%, 55%);
+    --clr-DarkBlue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--clr-LightGray);
+    font-family: 'Outfit', 'sans-serif';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--clr-White);
+    padding: 1.1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    margin: 0 1em;
+}
+
+.card img {
+    width: 350px;
+    border-radius: .7rem;
+}
+
+.texts {
+    padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.texts h2 {
+    color: var(--clr-DarkBlue);
+}
+
+.texts p {
+    color: var(--clr-GrayishBlue);
+    padding-top: 1rem;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    font-weight: 800;
+  }
